@@ -1,5 +1,10 @@
 *.py[cod]
 
+# Vim/Emacs
+*~
+*.swp
+*.swo
+
 # C extensions
 *.so
 
@@ -29,8 +34,3 @@ nosetests.xml
 
 # Translations
 *.mo
-
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
